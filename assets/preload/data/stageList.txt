@@ -1,8 +1,5 @@
-stage
-halloween
-philly
-limo
-mall
-mallEvil
-school
-schoolEvil
+cheater
+grief
+lol
+night
+superflat
