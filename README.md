@@ -1,6 +1,6 @@
 ![Kade Engine logo](assets/preload/images/KadeEngineLogo.png)
 
-![GitHub repo size](https://img.shields.io/github/repo-size/mcagabe19/Kade-Engine-1.5-Android)
+![GitHub repo size](https://img.shields.io/github/repo-size/mcagabe19/Vs-Stev-Kade-Engine-AGAIN)
 
 Ubuntu 18 Builds
 * 32: [![AppVeyor](https://img.shields.io/appveyor/build/mcagabe19/kade-engine-1-5-mobile-ubuntu18-04-32)](https://ci.appveyor.com/project/mcagabe19/kade-engine-1-5-mobile-ubuntu18-04-32/branch/master/artifacts)
