@@ -1,0 +1,25 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.05,
+			"portrait": "stev",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "why the fuck are you in my HOUSE?!?!?!?"
+		},
+		{
+			"speed": 0.04,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "pissed",
+			"text": "pls rap"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "stev",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "ok bitch"
+		}
+	]
+}

@@ -1,0 +1,53 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.035,
+			"portrait": "stev",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "waht you beat me??"
+		},
+		{
+			"speed": 0.1,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "y e s"
+		},
+		{
+			"speed": 0.035,
+			"portrait": "stev",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "what are you here for, to worship me?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "uhhhh, i don't even know hwat you are\\ntalkin about"
+		},
+		{
+			"speed": 0.035,
+			"portrait": "stev",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "KILL YOURSELF!"
+		},
+		{
+			"speed": 0.03,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "shocked",
+			"text": "WOAH WOAHWOAH WOPHA WPOAJHASINSBHUDOISAHAHDAHSIDHAIDHAS\\noh my fuckikng god dude kalm down"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "stev",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "calm*"
+		}
+	]
+}

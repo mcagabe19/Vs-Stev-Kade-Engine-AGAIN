@@ -1,0 +1,20 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "stev",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "enough"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "stev",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "now i will show you my real power"
+		}
+	]
+}

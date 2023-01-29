@@ -1,0 +1,116 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "stev",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "byofriend..."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": ""
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "stev",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "boyfriend."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": ""
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "stev",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "BOYTDFIEND"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": ""
+		},
+		{
+			"sound": "",
+			"speed": 0.015,
+			"portrait": "stev",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "BOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO\\nOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOYYYYYY\\nYYFFFFFFFFRRRRRRRRRRRIIIIIIIIIEEEEEEEEEENNNNNNNNNDDDDDDD"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "what"
+		},
+		{
+			"sound": "",
+			"speed": 0.045,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "you act like someone that says something like your mom because no one likes you are you are yov skjcicjoxnfasdpfnpidonfidjdaisojfsduiudfobgvf"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "stev",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "thats it..."
+		},
+		{
+			"sound": "",
+			"speed": 0.01,
+			"portrait": "stev",
+			"boxState": "angry",
+			"expression": "excited",
+			"text": "TIME FOR A 680 BPM SONGGGGGGGGGGGGGGGGGG"
+		},
+		{
+			"sound": "",
+			"speed": 0.5,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "pissed",
+			"text": "HELL NO!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+		},
+		{
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "stev",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "shut the FUCK up yu FUCKJG PUSY\\nI WILL BRWEK YUR HGANDS"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "shit..."
+		}
+	]
+}

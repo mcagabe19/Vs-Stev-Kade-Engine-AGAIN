@@ -1,0 +1,29 @@
+{
+	"song": {
+		"speed": 2.90000000000002,
+		"stage": "lol",
+		"player1": "bf",
+		"player2": "stev",
+		"player3": null,
+		"events": [
+			[
+				4363.63636363636,
+				[
+					[
+						"Change Character",
+						"bf",
+						"stev-playable"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "gf",
+		"bpm": 220,
+		"arrowSkin": null,
+		"needsVoices": false,
+		"song": "XD"
+	}
+}

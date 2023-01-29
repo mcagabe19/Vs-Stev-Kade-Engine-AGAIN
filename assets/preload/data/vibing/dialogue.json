@@ -1,0 +1,60 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.045,
+			"portrait": "stev",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "this dialogue is spnopsored by raid\\nshadow legneds"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "pissed",
+			"text": "no dick"
+		},
+		{
+			"speed": 0.035,
+			"portrait": "stev",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "BRUH WHArt THEFUCK IS WRONG\\nWITH YOU AHHHHHHHHHHHHHHHHHHHAT&*(Y*HO)UD*UHSHGSHGAUIAIPSIUEHUCEUDDUISOHIUHIUDPHDIU"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "no balls"
+		},
+		{
+			"speed": 0.04,
+			"portrait": "stev",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "WHY MANNNNN"
+		},
+		{
+			"speed": 0.035,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "anbd probably no buttohle since this\\nguy feeds on radiaiton"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "stev",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "you fuckiung idot"
+		},
+		{
+			"speed": 0.04,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "pissed",
+			"text": "I don't care, your joke wasn't funny."
+		}
+	]
+}

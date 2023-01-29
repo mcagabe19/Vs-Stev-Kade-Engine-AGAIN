@@ -1,0 +1,38 @@
+{
+	"song": {
+		"speed": 3.2,
+		"stage": "lol",
+		"player1": "bf",
+		"player2": "stev",
+		"events": [
+			[
+				84555.5555555556,
+				[
+					[
+						"Flash Camera Red",
+						"1",
+						""
+					],
+					[
+						"Change Character",
+						"dad",
+						"cheating-stev"
+					],
+					[
+						"Screen Shake",
+						"400000000000, 0.01",
+						"40000000000, 0.005"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "gf",
+		"bpm": 135,
+		"arrowSkin": null,
+		"needsVoices": true,
+		"song": "too-slow"
+	}
+}
