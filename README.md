@@ -12,7 +12,7 @@ Classic kade engine 1.5 what you want xd
 ### Vs Stev Credits
  - YAFNFP (Your Average FNF Pro) - The Maker Of Stev
  - [mcagabe19](https://github.com/mcagabe19) - Whole Ass Coding
-### Kade 1.5 Android Credits
+### Kade 1.5 Mobile Credits
  - [mcagabe19](https://github.com/mcagabe19) - Porter
  - [Sirox](https://github.com/sirox228) - Helper
  - [UNSTOP4BLE](https://github.com/unstop4ble) - Pause Button Adder And Ios Helper
