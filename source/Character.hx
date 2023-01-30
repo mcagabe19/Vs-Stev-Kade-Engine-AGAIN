@@ -32,7 +32,7 @@ class Character extends FlxSprite
 		{
                         case 'stev':
 				// OG STEV CODE
-				tex = Paths.getSparrowAtlas('characters/stev');
+				tex = Paths.getSparrowAtlas('characters/stev','stev');
 				frames = tex;
 				animation.addByPrefix('idle', 'idle 0', 24);
 				animation.addByPrefix('singUP', 'up 0', 24);
@@ -50,7 +50,7 @@ class Character extends FlxSprite
 
                                 flipX = true;
                         case 'stevbside':
-				tex = Paths.getSparrowAtlas('characters/stev');
+				tex = Paths.getSparrowAtlas('characters/stevbside','stev');
 				frames = tex;
 				animation.addByPrefix('idle', 'idle 0', 24);
 				animation.addByPrefix('singUP', 'up 0', 24);
@@ -68,7 +68,7 @@ class Character extends FlxSprite
                          case 'bfbside-dead':
 				if (!FlxG.save.data.noDieAnim)
 				{
-					var tex = Paths.getSparrowAtlas('characters/BOYFRIENDbside_DEAD');
+					var tex = Paths.getSparrowAtlas('characters/BOYFRIENDbside_DEAD','stev');
 
 					frames = tex;
 					animation.addByPrefix('firstDeath', "BF dies", 24, false);
@@ -101,7 +101,7 @@ class Character extends FlxSprite
 					flipX = true;
 				}
                          case 'bfbside':
-				var tex = Paths.getSparrowAtlas('characters/BOYFRIENDbside');
+				var tex = Paths.getSparrowAtlas('characters/BOYFRIENDbside','stev');
 				frames = tex;
 				animation.addByPrefix('idle', 'BF idle dance', 24, false);
 				animation.addByPrefix('singUP', 'BF NOTE UP0', 24, false);
@@ -133,7 +133,7 @@ class Character extends FlxSprite
                         case 'gfbside':
 				if (!FlxG.save.data.rmgf)
 				{
-					tex = Paths.getSparrowAtlas('characters/GFbside1');
+					tex = Paths.getSparrowAtlas('characters/GFbside1','stev');
 					frames = tex;
 					animation.addByPrefix('cheer', 'GF Cheer', 24, false);
 					animation.addByPrefix('singLEFT', 'GF left note', 24, false);
