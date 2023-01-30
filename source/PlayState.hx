@@ -796,8 +796,7 @@ class PlayState extends MusicBeatState
 
                         case "stev" | "stevbside" | "stevgun":
                                 dad.x += 150;
-                                camPos.x += 40;
-                                camPos.y += 380;
+                                camPos.set(dad.getGraphicMidpoint().x + 300, dad.getGraphicMidpoint().y);
 			case "spooky":
 				dad.y += 200;
 			case "monster":
@@ -831,12 +830,12 @@ class PlayState extends MusicBeatState
 		switch (curStage)
 		{
                         case 'lol':
-				boyfriend.x == 1000;
+				boyfriend.x == 1100;
                                 boyfriend.y == -160;
                                 gf.x == 500;
                                 gf.y == -100;
-                                dad.x == 10;
-                                dad.y == -160;
+                                dad.x == -50;
+                                dad.y == -150;
 			case 'limo':
 				boyfriend.y -= 220;
 				boyfriend.x += 260;
