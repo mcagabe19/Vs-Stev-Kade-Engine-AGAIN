@@ -1,7 +1,8 @@
 bf
-bfb
-gfb
+bfbside
 gf
+gfbside
 stev
-stevb
-evilstev
+stev-guitar
+stevbside
+cheating-stev
