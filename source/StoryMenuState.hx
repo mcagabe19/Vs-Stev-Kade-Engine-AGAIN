@@ -344,9 +344,9 @@ class StoryMenuState extends MusicBeatState
 		
 		switch (curWeek)
 		{
-		case '0'
+		case 0:
 		yellowBG:FlxSprite = new FlxSprite(0, 0).loadGraphic(Paths.image('menubg/blank'));
-		case '1'
+		case 1:
 		yellowBG:FlxSprite = new FlxSprite(0, 0).loadGraphic(Paths.image('menubg/stevvvv'));
 		}
 
