@@ -372,7 +372,7 @@ class PlayState extends MusicBeatState
 				{
 					defaultCamZoom = 0.9;
 					curStage = 'lol';
-					var bg:FlxSprite = new FlxSprite(-300, -320).loadGraphic(Paths.image('stageimages/urghh','stev'));
+					var bg:FlxSprite = new FlxSprite(-300, -320).loadGraphic(Paths.image('stageimages/urghh'));
 					bg.antialiasing = true;
 					bg.scrollFactor.set(1.0, 1.0);
                                         bg.setGraphicSize(Std.int(1.3));
@@ -795,7 +795,7 @@ class PlayState extends MusicBeatState
 				}
 
                         case "stev" | "stevbside" | "stevgun":
-                                dad.x += 150;
+                                //dad.x += 150;
                                 camPos.set(dad.getGraphicMidpoint().x + 300, dad.getGraphicMidpoint().y);
 			case "spooky":
 				dad.y += 200;
@@ -829,13 +829,13 @@ class PlayState extends MusicBeatState
 		// REPOSITIONING PER STAGE
 		switch (curStage)
 		{
-                        /*case 'lol':
-				boyfriend.x == 1100;
-                                boyfriend.y == -160;
-                                gf.x == 500;
-                                gf.y == -100;
-                                dad.x == -50;
-                                dad.y == -150;*/
+                        case 'lol':
+				boyfriend.x += 230;
+                                //boyfriend.y == -160;
+                                gf.x += 100;
+                                //gf.y == -100;
+                                dad.x -= 90;
+                                //dad.y == -150;
 			case 'limo':
 				boyfriend.y -= 220;
 				boyfriend.x += 260;
