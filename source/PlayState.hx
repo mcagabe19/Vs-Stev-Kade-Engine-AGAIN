@@ -372,11 +372,11 @@ class PlayState extends MusicBeatState
 				{
 					defaultCamZoom = 0.9;
 					curStage = 'lol';
-					var bg:FlxSprite = new FlxSprite(-300, -320).loadGraphic(Paths.image('urghh'));
+					var bg:FlxSprite = new FlxSprite(-300, -320).loadGraphic(Paths.image('urghh','stev'));
 					bg.antialiasing = true;
 					bg.scrollFactor.set(1.0, 1.0);
-                                        bg.setGraphicSize(Std.int(1.3));
-					bg.active = false;
+                                        bg.setGraphicSize(Std.int(bg.width * 1.3));
+					//bg.active = false;
 					add(bg);
                                 }
 			case 'halloween':
