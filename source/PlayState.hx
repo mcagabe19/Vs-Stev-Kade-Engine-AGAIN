@@ -375,7 +375,7 @@ class PlayState extends MusicBeatState
 					var bg:FlxSprite = new FlxSprite(-300, -320).loadGraphic(Paths.image('stageimages/urghh','stev'));
 					bg.antialiasing = true;
 					bg.scrollFactor.set(1.0, 1.0);
-                                        bg.setGraphicSize(1.3, 1.3);
+                                        bg.setGraphicSize(Std.int(1.3));
 					bg.active = false;
 					add(bg);
                                 }
