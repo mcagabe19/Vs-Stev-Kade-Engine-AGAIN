@@ -3,3 +3,16 @@ hello:stev:2
 i can has diamonds:stev:2
 vibing:stev:2
 spammo:stev:2
+epic guitar:stev-guitar:3
+crafty:stev:3
+hello b side:stev:4
+i can has diamonds b side:stev:4
+vibing b side:stev:4
+spammo b side:stev:4
+i can has diamonds beta:stev:5
+xd:stev:5
+vibing remix:stev:5
+suit up:stev:5
+cheating:cheating-stev:6
+emerald:cheating-stev:6
+tape:cheating-stev:6
