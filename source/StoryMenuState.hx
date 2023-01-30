@@ -193,6 +193,14 @@ class StoryMenuState extends MusicBeatState
 
 	override function update(elapsed:Float)
 	{
+                switch (curWeek)
+		{
+		case 0:
+		yellowBG = new FlxSprite(0, 70).loadGraphic(Paths.image('menu_blank','stev'));
+		case 1:
+		yellowBG = new FlxSprite(0, 70).loadGraphic(Paths.image('menu_stevvvv','stev'));
+		}
+
 		// scoreText.setFormat('VCR OSD Mono', 32);
 		lerpScore = Math.floor(FlxMath.lerp(lerpScore, intendedScore, 0.5));
 
@@ -342,14 +350,6 @@ class StoryMenuState extends MusicBeatState
 	function changeWeek(change:Int = 0):Void
 	{
 		curWeek += change;
-		
-		switch (curWeek)
-		{
-		case 0:
-		yellowBG = new FlxSprite(0, 70).loadGraphic(Paths.image('menu_blank','stev'));
-		case 1:
-		yellowBG = new FlxSprite(0, 70).loadGraphic(Paths.image('menu_stevvvv','stev'));
-		}
 
 		if (curWeek >= weekData.length)
 			curWeek = 0;
