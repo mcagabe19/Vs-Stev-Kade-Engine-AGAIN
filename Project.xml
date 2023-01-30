@@ -56,6 +56,7 @@
 	<section if="PRELOAD_ALL">
 		<library name="songs"    preload="true" />
 		<library name="shared"   preload="true" />
+		<library name="stev"   preload="true" />
 	</section>
 	
 	<section if="NO_PRELOAD_ALL">
