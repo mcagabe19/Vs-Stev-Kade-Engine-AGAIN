@@ -2,11 +2,10 @@
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/mcagabe19/Vs-Stev-Kade-Engine-AGAIN)
 
-Ubuntu 18 Builds
-* 32: [![AppVeyor](https://img.shields.io/appveyor/build/mcagabe19/kade-engine-1-5-mobile-ubuntu18-04-32)](https://ci.appveyor.com/project/mcagabe19/kade-engine-1-5-mobile-ubuntu18-04-32/branch/master/artifacts)
-* 64: [![AppVeyor](https://img.shields.io/appveyor/build/mcagabe19/kade-engine-1-5-mobile-ubuntu18-04-64)](https://ci.appveyor.com/project/mcagabe19/kade-engine-1-5-mobile-ubuntu18-04-64/branch/master/artifacts)
+<img src="https://static.wikia.nocookie.net/fridaynightfunking/images/2/25/Singularstevicon.png/revision/latest?cb=20220215115311">
+it is stev the god of spammer say hi to him or he will got mad you like this:
+<img src="https://static.wikia.nocookie.net/fridaynightfunking/images/3/36/Stev_what_happen.png/revision/latest?cb=20220522065041">
 
-Classic kade engine 1.5 what you want xd
 
 # Credits
 ### Vs Stev Credits
