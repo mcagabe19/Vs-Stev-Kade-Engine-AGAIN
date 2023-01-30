@@ -47,6 +47,8 @@ class Character extends FlxSprite
 				addOffset("singDOWN", -78, -400);
 
 				playAnim('idle');
+
+                                flipX = true;
                         case 'stevbside':
 				tex = Paths.getSparrowAtlas('characters/stev');
 				frames = tex;
