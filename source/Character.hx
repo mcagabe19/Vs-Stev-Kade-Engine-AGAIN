@@ -30,6 +30,23 @@ class Character extends FlxSprite
 
 		switch (curCharacter)
 		{
+                        case 'stev':
+				// OG STEV CODE
+				tex = Paths.getSparrowAtlas('characters/stev', 'stev');
+				frames = tex;
+				animation.addByPrefix('idle', 'idle 0', 24);
+				animation.addByPrefix('singUP', 'up 0', 24);
+				animation.addByPrefix('singRIGHT', 'right 0', 24);
+				animation.addByPrefix('singDOWN', 'down 0', 24);
+				animation.addByPrefix('singLEFT', 'laft 0', 24);
+
+				addOffset('idle', -53, -396);
+				addOffset("singUP", -36, -339);
+				addOffset("singRIGHT", -72, -355);
+				addOffset("singLEFT", -37, -406);
+				addOffset("singDOWN", -78, -400);
+
+				playAnim('idle');
 			case 'gf':
 				// GIRLFRIEND CODE
 				if (!FlxG.save.data.rmgf)
