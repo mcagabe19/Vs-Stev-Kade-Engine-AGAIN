@@ -56,7 +56,7 @@ class StoryMenuState extends MusicBeatState
 	var leftArrow:FlxSprite;
 	var rightArrow:FlxSprite;
 
-        var yellowBG:FlxSprite = null
+        var yellowBG:FlxSprite = null;
 
 	override function create()
 	{
