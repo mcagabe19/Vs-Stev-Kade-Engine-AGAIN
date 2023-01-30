@@ -795,7 +795,7 @@ class PlayState extends MusicBeatState
 				}
 
                         case "stev" | "stevbside" | "stevgun":
-                                dad.x += 150
+                                dad.x += 150;
                                 camPos.x += 40;
                                 camPos.y += 380;
 			case "spooky":
@@ -833,10 +833,10 @@ class PlayState extends MusicBeatState
                         case 'lol':
 				boyfriend.x == 1000;
                                 boyfriend.y == -160;
-                                gf.x == 500
-                                gf.y == -100
-                                dad.x == 10
-                                dad.y == -160
+                                gf.x == 500;
+                                gf.y == -100;
+                                dad.x == 10;
+                                dad.y == -160;
 			case 'limo':
 				boyfriend.y -= 220;
 				boyfriend.x += 260;
