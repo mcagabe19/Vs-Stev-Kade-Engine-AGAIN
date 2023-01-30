@@ -372,7 +372,7 @@ class PlayState extends MusicBeatState
 				{
 					defaultCamZoom = 0.9;
 					curStage = 'lol';
-					var bg:FlxSprite = new FlxSprite(-300, -320).loadGraphic(Paths.image('urghh','stev'));
+					var bg:FlxSprite = new FlxSprite(-400, -220).loadGraphic(Paths.image('urghh','stev'));
 					bg.antialiasing = true;
 					bg.scrollFactor.set(1.0, 1.0);
                                         bg.setGraphicSize(Std.int(bg.width * 1.3));
@@ -796,7 +796,7 @@ class PlayState extends MusicBeatState
 
                         case "stev" | "stevbside" | "stevgun":
                                 //dad.x += 150;
-                                camPos.set(dad.getGraphicMidpoint().x + 300, dad.getGraphicMidpoint().y);
+                                camPos.set(dad.getGraphicMidpoint().x + 300, dad.getGraphicMidpoint().y - 240);
 			case "spooky":
 				dad.y += 200;
 			case "monster":
