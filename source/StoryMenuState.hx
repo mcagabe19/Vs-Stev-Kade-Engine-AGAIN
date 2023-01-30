@@ -56,7 +56,7 @@ class StoryMenuState extends MusicBeatState
 	var leftArrow:FlxSprite;
 	var rightArrow:FlxSprite;
 
-        var yellowBG:FlxSprite = new FlxSprite(0, 70).loadGraphic(Paths.image('menubg/blank','stev'));
+        var yellowBG:FlxSprite = new FlxSprite(0, 70).loadGraphic(Paths.image('images/menubg/blank','stev'));
 
 	override function create()
 	{
@@ -346,9 +346,9 @@ class StoryMenuState extends MusicBeatState
 		switch (curWeek)
 		{
 		case 0:
-		yellowBG = new FlxSprite(0, 70).loadGraphic(Paths.image('menubg/blank','stev'));
+		yellowBG = new FlxSprite(0, 70).loadGraphic(Paths.image('images/menubg/blank','stev'));
 		case 1:
-		yellowBG = new FlxSprite(0, 70).loadGraphic(Paths.image('menubg/stevvvv','stev'));
+		yellowBG = new FlxSprite(0, 70).loadGraphic(Paths.image('images/menubg/stevvvv','stev'));
 		}
 
 		if (curWeek >= weekData.length)
