@@ -56,6 +56,8 @@ class StoryMenuState extends MusicBeatState
 	var leftArrow:FlxSprite;
 	var rightArrow:FlxSprite;
 
+        var yellowBG:FlxSprite = null
+
 	override function create()
 	{
 		Paths.clearUnusedMemory();
@@ -91,7 +93,7 @@ class StoryMenuState extends MusicBeatState
 		rankText.screenCenter(X);
 
 		var ui_tex = Paths.getSparrowAtlas('campaign_menu_UI_assets');
-		var yellowBG:FlxSprite = new FlxSprite(0, 0).loadGraphic(Paths.image('menubg/blank'));
+		yellowBG = new FlxSprite(0, 0).loadGraphic(Paths.image('menubg/blank'));
 
 		grpWeekText = new FlxTypedGroup<MenuItem>();
 		add(grpWeekText);
