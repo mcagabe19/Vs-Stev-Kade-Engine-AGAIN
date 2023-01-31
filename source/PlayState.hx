@@ -797,15 +797,15 @@ class PlayState extends MusicBeatState
                         case "stev":
                                 //dad.x += 150;
                                 camPos.set(dad.getGraphicMidpoint().x + 300, dad.getGraphicMidpoint().y);
-                                camPos.y -= 180
+                                camPos.y -= 180;
                         case "stevbside":
                                 //dad.x += 150;
                                 camPos.set(dad.getGraphicMidpoint().x + 300, dad.getGraphicMidpoint().y);
-                                camPos.y -= 180
+                                camPos.y -= 180;
                         case "stevgun":
                                 //dad.x += 150;
                                 camPos.set(dad.getGraphicMidpoint().x + 300, dad.getGraphicMidpoint().y);
-                                camPos.y -= 180
+                                camPos.y -= 180;
 			case "spooky":
 				dad.y += 200;
 			case "monster":
