@@ -30,9 +30,9 @@ class Character extends FlxSprite
 
 		switch (curCharacter)
 		{
-                        case 'stev':
+			case 'stev':
 				// OG STEV CODE
-				tex = Paths.getSparrowAtlas('characters/stev','stev');
+				tex = Paths.getSparrowAtlas('characters/stev', 'stev');
 				frames = tex;
 				animation.addByPrefix('idle', 'idle 0', 24);
 				animation.addByPrefix('singUP', 'up 0', 24);
@@ -48,9 +48,9 @@ class Character extends FlxSprite
 
 				playAnim('idle');
 
-                                flipX = true;
-                        case 'stevbside':
-				tex = Paths.getSparrowAtlas('characters/stevbside','stev');
+				flipX = true;
+			case 'stevbside':
+				tex = Paths.getSparrowAtlas('characters/stevbside', 'stev');
 				frames = tex;
 				animation.addByPrefix('idle', 'idle 0', 24);
 				animation.addByPrefix('singUP', 'up 0', 24);
@@ -65,10 +65,10 @@ class Character extends FlxSprite
 				addOffset("singDOWN", -78, -400);
 
 				playAnim('idle');
-                         case 'bfbside-dead':
+			case 'bfbside-dead':
 				if (!FlxG.save.data.noDieAnim)
 				{
-					var tex = Paths.getSparrowAtlas('characters/BOYFRIENDbside_DEAD','stev');
+					var tex = Paths.getSparrowAtlas('characters/BOYFRIENDbside_DEAD', 'stev');
 
 					frames = tex;
 					animation.addByPrefix('firstDeath', "BF dies", 24, false);
@@ -100,8 +100,8 @@ class Character extends FlxSprite
 
 					flipX = true;
 				}
-                         case 'bfbside':
-				var tex = Paths.getSparrowAtlas('characters/BOYFRIENDbside','stev');
+			case 'bfbside':
+				var tex = Paths.getSparrowAtlas('characters/BOYFRIENDbside', 'stev');
 				frames = tex;
 				animation.addByPrefix('idle', 'BF idle dance', 24, false);
 				animation.addByPrefix('singUP', 'BF NOTE UP0', 24, false);
@@ -130,10 +130,10 @@ class Character extends FlxSprite
 				playAnim('idle');
 
 				flipX = true;
-                        case 'gfbside':
+			case 'gfbside':
 				if (!FlxG.save.data.rmgf)
 				{
-					tex = Paths.getSparrowAtlas('characters/GFbside1','stev');
+					tex = Paths.getSparrowAtlas('characters/GFbside1', 'stev');
 					frames = tex;
 					animation.addByPrefix('cheer', 'GF Cheer', 24, false);
 					animation.addByPrefix('singLEFT', 'GF left note', 24, false);

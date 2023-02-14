@@ -22,23 +22,14 @@ class StoryMenuState extends MusicBeatState
 {
 	var scoreText:FlxText;
 
-	var weekData:Array<Dynamic> = [
-		['stevtorial'],
-		['hello', 'i can has diamonds', 'vibing', 'spammo'],
-	];
+	var weekData:Array<Dynamic> = [['stevtorial'], ['hello', 'i can has diamonds', 'vibing', 'spammo'],];
 	var curDifficulty:Int = 1;
 
 	public static var weekUnlocked:Array<Bool> = [true, true, true, true, true, true, true];
 
-	var weekCharacters:Array<Dynamic> = [
-		['', 'bf', 'gf'],
-		['dad', 'bf', 'gf'],
-	];
+	var weekCharacters:Array<Dynamic> = [['', 'bf', 'gf'], ['dad', 'bf', 'gf'],];
 
-	var weekNames:Array<String> = [
-		"how to fuck *funk* with stev",
-		"stev: the god of spamming",
-	];
+	var weekNames:Array<String> = ["how to fuck *funk* with stev", "stev: the god of spamming",];
 
 	var txtWeekTitle:FlxText;
 
@@ -47,8 +38,8 @@ class StoryMenuState extends MusicBeatState
 	var txtTracklist:FlxText;
 
 	var grpWeekText:FlxTypedGroup<MenuItem>;
-	//var grpWeekCharacters:FlxTypedGroup<MenuCharacter>;
 
+	// var grpWeekCharacters:FlxTypedGroup<MenuCharacter>;
 	var grpLocks:FlxTypedGroup<FlxSprite>;
 
 	var difficultySelectors:FlxGroup;
@@ -56,7 +47,7 @@ class StoryMenuState extends MusicBeatState
 	var leftArrow:FlxSprite;
 	var rightArrow:FlxSprite;
 
-        var yellowBG:FlxSprite = new FlxSprite(0, 70).loadGraphic(Paths.image('menu_blank','stev'));
+	var yellowBG:FlxSprite = new FlxSprite(0, 70).loadGraphic(Paths.image('menu_blank', 'stev'));
 
 	override function create()
 	{
@@ -100,7 +91,7 @@ class StoryMenuState extends MusicBeatState
 		var blackBarThingie:FlxSprite = new FlxSprite().makeGraphic(FlxG.width, 56, FlxColor.BLACK);
 		add(blackBarThingie);
 
-		//grpWeekCharacters = new FlxTypedGroup<MenuCharacter>();
+		// grpWeekCharacters = new FlxTypedGroup<MenuCharacter>();
 
 		grpLocks = new FlxTypedGroup<FlxSprite>();
 		add(grpLocks);
@@ -134,8 +125,8 @@ class StoryMenuState extends MusicBeatState
 		trace("Line 96");
 
 		/*grpWeekCharacters.add(new MenuCharacter(0, 100, 0.5, false));
-		grpWeekCharacters.add(new MenuCharacter(450, 25, 0.9, true));
-		grpWeekCharacters.add(new MenuCharacter(850, 100, 0.5, true));*/
+			grpWeekCharacters.add(new MenuCharacter(450, 25, 0.9, true));
+			grpWeekCharacters.add(new MenuCharacter(850, 100, 0.5, true)); */
 
 		difficultySelectors = new FlxGroup();
 		add(difficultySelectors);
@@ -169,7 +160,7 @@ class StoryMenuState extends MusicBeatState
 		trace("Line 150");
 
 		add(yellowBG);
-		//add(grpWeekCharacters);
+		// add(grpWeekCharacters);
 
 		txtTracklist = new FlxText(FlxG.width * 0.05, yellowBG.x + yellowBG.height + 100, 0, "Tracks", 32);
 		txtTracklist.alignment = CENTER;
@@ -193,12 +184,12 @@ class StoryMenuState extends MusicBeatState
 
 	override function update(elapsed:Float)
 	{
-                switch (curWeek)
+		switch (curWeek)
 		{
-		case 0:
-		yellowBG = new FlxSprite(0, 70).loadGraphic(Paths.image('menu_blank','stev'));
-		case 1:
-		yellowBG = new FlxSprite(0, 70).loadGraphic(Paths.image('menu_stevvvv','stev'));
+			case 0:
+				yellowBG = new FlxSprite(0, 70).loadGraphic(Paths.image('menu_blank', 'stev'));
+			case 1:
+				yellowBG = new FlxSprite(0, 70).loadGraphic(Paths.image('menu_stevvvv', 'stev'));
 		}
 
 		// scoreText.setFormat('VCR OSD Mono', 32);
@@ -277,7 +268,7 @@ class StoryMenuState extends MusicBeatState
 				FlxG.sound.play(Paths.sound('confirmMenu'));
 
 				grpWeekText.members[curWeek].startFlashing();
-				//grpWeekCharacters.members[1].animation.play('bfConfirm');
+				// grpWeekCharacters.members[1].animation.play('bfConfirm');
 				stopspamming = true;
 			}
 
@@ -376,8 +367,8 @@ class StoryMenuState extends MusicBeatState
 	function updateText()
 	{
 		/*grpWeekCharacters.members[0].setCharacter(weekCharacters[curWeek][0]);
-		grpWeekCharacters.members[1].setCharacter(weekCharacters[curWeek][1]);
-		grpWeekCharacters.members[2].setCharacter(weekCharacters[curWeek][2]);*/
+			grpWeekCharacters.members[1].setCharacter(weekCharacters[curWeek][1]);
+			grpWeekCharacters.members[2].setCharacter(weekCharacters[curWeek][2]); */
 
 		txtTracklist.text = "Tracks\n";
 		var stringThing:Array<String> = weekData[curWeek];

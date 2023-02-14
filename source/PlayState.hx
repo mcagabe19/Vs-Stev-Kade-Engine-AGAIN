@@ -368,17 +368,17 @@ class PlayState extends MusicBeatState
 
 		switch (SONG.stage)
 		{
-                        case 'lol':
+			case 'lol':
 				{
 					defaultCamZoom = 0.9;
 					curStage = 'lol';
-					var bg:FlxSprite = new FlxSprite(-500, -150).loadGraphic(Paths.image('urghh','stev'));
+					var bg:FlxSprite = new FlxSprite(-500, -150).loadGraphic(Paths.image('urghh', 'stev'));
 					bg.antialiasing = true;
 					bg.scrollFactor.set(1.0, 1.0);
-                                        bg.setGraphicSize(Std.int(bg.width * 1.3));
-					//bg.active = false;
+					bg.setGraphicSize(Std.int(bg.width * 1.3));
+					// bg.active = false;
 					add(bg);
-                                }
+				}
 			case 'halloween':
 				{
 					curStage = 'spooky';
@@ -794,18 +794,18 @@ class PlayState extends MusicBeatState
 					tweenCamIn();
 				}
 
-                        case "stev":
-                                //dad.x += 150;
-                                camPos.set(dad.getGraphicMidpoint().x + 300, dad.getGraphicMidpoint().y);
-                                camPos.y -= 180;
-                        case "stevbside":
-                                //dad.x += 150;
-                                camPos.set(dad.getGraphicMidpoint().x + 300, dad.getGraphicMidpoint().y);
-                                camPos.y -= 180;
-                        case "stevgun":
-                                //dad.x += 150;
-                                camPos.set(dad.getGraphicMidpoint().x + 300, dad.getGraphicMidpoint().y);
-                                camPos.y -= 180;
+			case "stev":
+				// dad.x += 150;
+				camPos.set(dad.getGraphicMidpoint().x + 300, dad.getGraphicMidpoint().y);
+				camPos.y -= 180;
+			case "stevbside":
+				// dad.x += 150;
+				camPos.set(dad.getGraphicMidpoint().x + 300, dad.getGraphicMidpoint().y);
+				camPos.y -= 180;
+			case "stevgun":
+				// dad.x += 150;
+				camPos.set(dad.getGraphicMidpoint().x + 300, dad.getGraphicMidpoint().y);
+				camPos.y -= 180;
 			case "spooky":
 				dad.y += 200;
 			case "monster":
@@ -838,13 +838,13 @@ class PlayState extends MusicBeatState
 		// REPOSITIONING PER STAGE
 		switch (curStage)
 		{
-                        case 'lol':
+			case 'lol':
 				boyfriend.x += 230;
-                                //boyfriend.y == -160;
-                                gf.x += 100;
-                                //gf.y == -100;
-                                dad.x -= 90;
-                                //dad.y == -150;
+				// boyfriend.y == -160;
+				gf.x += 100;
+				// gf.y == -100;
+				dad.x -= 90;
+			// dad.y == -150;
 			case 'limo':
 				boyfriend.y -= 220;
 				boyfriend.x += 260;

@@ -26,9 +26,9 @@ class HealthIcon extends FlxSprite
 		animation.play(char);
 
 		/*switch (char)
-		{
-			case 'bf-pixel' | 'senpai' | 'senpai-angry' | 'spirit' | 'gf-pixel':
-				antialiasing = false;
+			{
+				case 'bf-pixel' | 'senpai' | 'senpai-angry' | 'spirit' | 'gf-pixel':
+					antialiasing = false;
 		}*/
 
 		scrollFactor.set();
